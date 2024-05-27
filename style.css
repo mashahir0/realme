@@ -1,0 +1,666 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  margin: 0;
+}
+/* section 1 */
+
+.section1 {
+  padding-left: 140px;
+  padding-right: 150px;
+ 
+  background-color: white;
+}
+.n-one {
+  margin-top: 10px;
+  display: flex;
+  flex: 1;
+  background-color: white;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+.li-one {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #666;
+  font-family: "SF Pro SC", "SF Pro Display", "PingFang SC", "Helvetica Neue",
+    Helvetica, "Segoe UI", SegoeUI, Arial, sans-serif;
+  cursor: pointer;
+  height: 35px;
+  font-size: 12px;
+}
+span {
+  color: #666;
+  font-family: "SF Pro SC", "SF Pro Display", "PingFang SC", "Helvetica Neue",
+    Helvetica, "Segoe UI", SegoeUI, Arial, sans-serif;
+}
+.one-two {
+  background-color: white;
+  padding-left: 470px;
+}
+.n-two {
+  margin-top: 10px;
+  display: flex;
+  flex: 1;
+  background-color: white;
+  
+}
+
+.li-two {
+  padding-left: 5px;
+  padding-right: 40px;
+  color: black;
+  font-family: "SF Pro SC", "SF Pro Display", "PingFang SC", "Helvetica Neue",
+    Helvetica, "Segoe UI", SegoeUI, Arial, sans-serif;
+  cursor: pointer;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.gif {
+  margin-top: -5px;
+  height: 44px;
+  margin-left: 170px;
+}
+
+/* section 2 */
+
+.section2 {
+  margin-top: 1px;
+  height: 95vh;
+  background-image: url(slideimg.webp);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  padding-left: 140px;
+  padding-right: 150px;
+}
+.banner {
+  background-color: transparent;
+  height: 100%;
+  width: 50%;
+}
+.banner-text {
+  margin-top: 95px;
+  text-align: start;
+  background-color: transparent;
+  height: 100%;
+  width: 50%;
+  margin-left: 150px;
+}
+.tittle-banner {
+  margin-top: 100px;
+  height: 48px;
+  max-width: 500px;
+}
+.txt-u-tittle {
+  font-size: 28px;
+  line-height: 36px;
+  margin-top: 12px;
+  vertical-align: top;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+  font-weight: 700;
+}
+.off {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 12px;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+}
+.space-div {
+  height: 60px;
+}
+.span-2 {
+  color: #000;
+  font-size: 12px;
+  margin-right: 0.04rem;
+  line-height: 0.17rem;
+  opacity: 0.5;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+}
+.price {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+}
+.banner-btn1 {
+  margin-top: 10px;
+  width: 130px;
+  height: 35px;
+  color: white;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 35px;
+}
+.banner-btn2 {
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 130px;
+  height: 35px;
+  color: black;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 35px;
+}
+
+/* section3 */
+
+.section3 {
+  background-color: white;
+  display: flex;
+  padding-left: 140px;
+  padding-right: 150px;
+}
+.sect3-1 {
+  flex: 1;
+  background-color: white;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+  text-align: center;
+}
+.img-size {
+  width: 140px;
+  padding-top: 20px;
+  
+}
+
+/* section 4 */
+
+.section4 {
+  padding-left: 170px;
+  padding-right: 150px;
+}
+.upside {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+}
+.up-left,
+.up-right {
+  flex: 1;
+  width: 50%;
+  height: 60px;
+  color: #000;
+}
+.view-more {
+  margin-left: 460px;
+  margin-top: -35px;
+  font-weight: 100;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+  font-size: smaller;
+  color: #666;
+}
+.head-txt {
+  font-family: "SF Pro SC", "SF Pro Display", "PingFang SC", "Helvetica Neue",
+    Helvetica, "Segoe UI", SegoeUI, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.downside {
+  display: flex;
+  width: 100%;
+  height: 30vh;
+}
+.d-one,
+.d-two {
+  flex: 1;
+  display: flex;
+  height: 100%;
+}
+.img-area {
+  flex: 1;
+  height: 100%;
+  text-align: center;
+}
+.img-ph {
+  width: 120px;
+}
+.ph-name {
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+}
+.details-ph1 {
+  font-size: 12px;
+  color: #666;
+  padding-bottom: 10px;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+}
+.ph-price {
+  color: #e6462e;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+}
+.price-span {
+  font-weight: normal;
+  color: #666;
+  text-decoration: line-through;
+}
+
+/* section5 ,6,8,9,10 used sane class */
+
+.section5,
+.section6,
+.section8,
+.section9,
+.section10 {
+  padding-left: 170px;
+  padding-right: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.newlau-text {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+}
+.img-div {
+  border-radius: 30px;
+  vertical-align: top;
+  height: 28vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url(gt.webp);
+}
+.two-img {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+}
+.img-one,
+.img-two {
+  flex: 1;
+  margin-top: 40px;
+}
+.img-one {
+  background-color: #666;
+  margin-right: 30px;
+  background-image: url(realmegt6t.webp);
+  background-size: cover;
+
+  border-radius: 20px;
+}
+.img-two {
+  background-color: #a03939;
+  background-image: url(gtneo3.webp);
+  background-size: cover;
+  border-radius: 20px;
+}
+.details-ph {
+  color: #ffffff;
+  background: #f56300;
+  font-size: 12px;
+  width: 90px;
+  margin-top: 60px;
+  margin-left: 40px;
+  height: 10px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.phone-name {
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 12px;
+  margin-left: 40px;
+}
+.txt-u-name {
+  opacity: 0.5;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 12px;
+  margin-bottom: 0;
+  margin-left: 40px;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+}
+.span-from {
+  margin-left: 40px;
+  color: #000;
+  font-size: 12px;
+  line-height: 0.17rem;
+  opacity: 0.5;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+}
+.price-div {
+  margin-top: 90px;
+  color: red;
+  font-weight: 700;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+}
+.phone-name2 {
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 90px;
+  margin-left: 40px;
+}
+/* section7 */
+
+.section7 {
+  padding-left: 170px;
+  padding-right: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.img-3-div {
+  margin-top: 50px;
+  border-radius: 30px;
+  vertical-align: top;
+  height: 28vh;
+  width: 100%;
+  background-size: cover;
+}
+.img-3-one,
+.img-3-two {
+  flex: 1;
+  margin-top: 40px;
+}
+.img-3-one {
+  background-color: #666;
+  margin-right: 30px;
+  background-size: cover;
+  border-radius: 20px;
+}
+.img-3-two {
+  background-color: #a03939;
+  background-size: cover;
+  border-radius: 20px;
+}
+.img-3-1-one,
+.img-3-1-two {
+  flex: 1;
+  margin-top: 40px;
+}
+.img-3-1-one {
+  background-color: #666;
+  margin-right: 30px;
+  background-size: cover;
+  border-radius: 20px;
+}
+.img-3-1-two {
+  background-color: #a03939;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+/* section11 */
+
+.section11 {
+  padding-left: 170px;
+  padding-right: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.top-banner,
+.bottom-banner {
+  flex: 1;
+  border-radius: 30px;
+}
+.top-banner {
+  background-image: url(11top.webp);
+  background-size: cover;
+  margin-top: 50px;
+}
+.bottom-banner {
+  background-image: url(topbanner.webp);
+  background-size: cover;
+  margin-top: 50px;
+}
+
+/* section12 */
+
+.section12 {
+  padding-left: 170px;
+  padding-right: 150px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.recome-text {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+}
+.top-img {
+  height: 35%;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  background-image: url(rcare+.webp);
+  background-size: cover;
+}
+.bt-img {
+  height: 50%;
+  background-image: url(servicelist.webp);
+  background-size: cover;
+}
+
+/* section13 */
+
+.section13 {
+  padding-left: 170px;
+  padding-right: 150px;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+}
+.recom-text {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+}
+.timg-div {
+  display: flex;
+  width: 100%;
+}
+.timg-div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.left-img {
+  width: 40%;
+  height: 100%;
+  background-image: url(leftimg.webp);
+  margin-right: 20px;
+  background-size: cover;
+  border-radius: 30px;
+}
+.right-img {
+  width: 70%;
+  height: 100%;
+  background-image: url(service.webp);
+  border-radius: 30px;
+  background-size: cover;
+}
+.carsd-tittle {
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: bold;
+  color: #fff;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.card-info {
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 3px;
+  color: #fff;
+  margin-left: 40px;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+}
+.card-more {
+  margin-top: 160px;
+  margin-left: 40px;
+  font-size: small;
+  color: #fff;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+}
+.footer {
+  padding-left: 170px;
+  padding-right: 150px;
+  display: flex;
+  height: 65vh;
+}
+.f-1 {
+  flex: 1;
+  margin-top: 100px;
+}
+.li-title {
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 28px;
+  font-size: 14px;
+}
+footer div ul li {
+  list-style-type: none;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+}
+.li-txt {
+  font-size: 12px;
+  color: #000;
+  line-height: 28px;
+}
+.contact-btn {
+  width: 180px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 30px;
+  margin-left: 40px;
+  display: flex;
+}
+.cont-icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 6px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.ch-supp {
+  margin-top: 14px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+}
+.timing {
+  color: #6a6a6a;
+  margin-left: 15px;
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+}
+.iconbox {
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.ico-img {
+  width: 30px;
+  margin: 5px;
+}
+hr {
+  margin-left: 170px;
+  margin-right: 150px;
+}
+.footer-2 {
+  padding-left: 170px;
+  padding-right: 150px;
+  display: flex;
+  width: 78%;
+  height: 10vh;
+}
+.allright {
+  line-height: 14px;
+  color: #6a6a6a;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+  font-size: 12px;
+}
+.allright,
+.last-txt {
+  flex: 1;
+}
+.last-txt ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+.last-txt {
+  line-height: 14px;
+  color: #6a6a6a;
+  font-family: SF Pro SC, SF Pro Display, PingFang SC, Helvetica Neue, Helvetica,
+    "Segoe UI", SegoeUI, Arial, sans-serif;
+  font-size: 12px;
+  margin-left: 424px;
+}
+.line {
+  margin-left: 5px;
+  margin-right: 5px;
+}
